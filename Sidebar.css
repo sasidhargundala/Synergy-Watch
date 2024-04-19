@@ -1,0 +1,26 @@
+.sidebar_component {
+  background-color: #f8f8f8;
+  /* height: 100vh; */
+}
+body {
+  /* overflow: hidden; */
+}
+.sidebar_content i {
+  font-size: 30px;
+}
+.sidebar_content p {
+  font-size: 18px;
+}
+.sidebar_component {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  background-color: #f8f8f8;
+  width: 250px; /* Adjust width as needed */
+  overflow-y: auto; /* Allow vertical scrolling within the sidebar if content exceeds height */
+}
+
+.active{
+  color: red;
+}
